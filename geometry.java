@@ -2,17 +2,17 @@ package IMath;
 
 public class geometry {
     public static final double DELTA = 0.0001;
-    public static class quadrilateral {
+    public static class parallelogram {
         private double base;
         private double height;
         private double angle;
 
-        public quadrilateral(double base, double height) {
+        public parallelogram(double base, double height) {
             this.base = base;
             this.height = height;
             this.angle = 90;
         }
-        public quadrilateral(double base, double height, double angle) {
+        public parallelogram(double base, double height, double angle) {
             this.base = base;
             this.height = height;
             this.angle = angle;
@@ -26,7 +26,7 @@ public class geometry {
             return perimeter;
         }
     }
-    public static class rectangle extends quadrilateral {
+    public static class rectangle extends parallelogram {
 
 
         public rectangle(double base, double height) {
@@ -48,7 +48,7 @@ public class geometry {
 //        double b;
         algebra a;
         algebra b;
-        boolean circMode;
+        private boolean circMode;
 
         public ellipse (double a, double b) {
 //            this.a = a;
