@@ -61,7 +61,7 @@ public class README {
         doubleTemp.power(3.0/2);
         System.out.println("Integer Algebra: " + intTemp.getTotal() + " Double Algebra: " + doubleTemp.getTotal());
 
-        // Initializes geometry module
+        // Initializes calculus module
         calculus calculus = new calculus();
         // calculus module has features of calculating infinite sums, limits, and integrals
         String linearEquation = "y=2x+1";
